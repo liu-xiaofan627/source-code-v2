@@ -17,7 +17,7 @@ module.exports = {
     // 模式
     devServer: {
         port: 9000,
-        static: './',
+        static: './src',
     },
     mode: "development"
 }
