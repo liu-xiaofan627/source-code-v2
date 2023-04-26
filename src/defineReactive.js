@@ -24,7 +24,7 @@ export default function defineReactive(obj, key, val) {
             if (newValue === val) {
                 return
             }
-            val = newValuedd
+            val = newValue
             // 设置新值也要observe
             childOb = observe(newValue)
         }
