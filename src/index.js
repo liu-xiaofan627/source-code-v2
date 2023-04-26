@@ -1,1 +1,13 @@
-console.log('1112222222')
+
+import { observe } from './observe.js'
+
+let obj = {
+    a: {
+        m: {
+            n: ''
+        }
+    }
+}
+
+observe(obj)
+console.log(obj)
